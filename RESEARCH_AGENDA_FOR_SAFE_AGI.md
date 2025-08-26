@@ -1,16 +1,13 @@
 # A Research Agenda for Safe AGI: Benchmarks, Metrics, and Experimental Priorities
 
----
 
 ## Abstract
 Rapid advances in machine learning and large-scale models make artificial general intelligence (AGI) a realistic research target within the coming decades. This paper reframes the safety and governance challenges identified in the accompanying report into an actionable, research-oriented agenda intended to engage academic researchers and industrial model developers (e.g., Google Research, Anthropic/XAI, Amazon, DeepMind). We synthesize high-priority technical problems, propose concrete experimental directions, define evaluation metrics and benchmarks, and offer organizational and policy recommendations to accelerate safe deployments while preserving innovation. The goal is to convert high-level concern into reproducible research tasks, shared benchmarks, and coordinated industry practice. 
 
----
 
 ## 1. Introduction & Motivation
 The accompanying report provides a concise overview of risks and solution concepts for AI/AGI safety. Building on that foundation, this paper translates conceptual challenges into a prioritized research program that is (1) technically specific, (2) measurable, and (3) directly relevant to industrial model development pipelines. We aim to give researchers and engineering teams a clear set of experiments, metrics, and collaborative mechanisms that companies can adopt or sponsor to materially improve robustness, interpretability, and alignment. 
 
----
 
 ## 2. Framing the Problem: Risks that Require Research Attention
 
@@ -23,7 +20,6 @@ We categorize safety challenges into four interdependent vectors:
 
 Each vector admits concrete experimental hypotheses and metrics below. The original report outlines these risks at a conceptual level; our contribution is to make them experimentally tractable and operational for industry R&D. 
 
----
 
 ## 3. Technical Research Pillars & Concrete Experiments
 
@@ -63,7 +59,6 @@ Each vector admits concrete experimental hypotheses and metrics below. The origi
 
 **Metrics:** rate of unsafe tool invocations, developer productivity delta.
 
----
 
 ## 4. Benchmarks, Datasets, and Shared Infrastructure
 
@@ -75,7 +70,6 @@ To move from ad-hoc evaluation to reproducible progress, we recommend industry a
 
 These should be open where possible or governed via shared consortia to preserve competitive IP while improving communal safety.
 
----
 
 ## 5. Evaluation Metrics (operational & scientific)
 
@@ -88,7 +82,6 @@ We propose a compact set of operational metrics to accompany research outputs:
 
 Each metric must be paired with open evaluation code and seed datasets to enable cross-team comparability.
 
----
 
 ## 6. Organizational and Governance Recommendations
 
@@ -101,7 +94,6 @@ Companies should combine technical work with organizational changes:
 
 These items translate technical findings into practical guardrails that industry R&D leaders can implement.
 
----
 
 ## 7. Targeted Collaboration Models for Industry & Academia
 
@@ -113,7 +105,6 @@ To attract attention and participation from major R&D organizations, we recommen
 
 Such mechanisms reduce duplicated effort and enable rapid, accountable improvement.
 
----
 
 ## 9. Conclusion
 The technical and societal stakes of advanced AI are high. Converting conceptual safety concerns into rigorous, measurable research is essential to align progress with human values. The accompanying report provides important framing; the next step is operationalizing research tasks, benchmarks, and collaborative mechanisms as laid out above. 
